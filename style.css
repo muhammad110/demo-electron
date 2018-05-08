@@ -1,0 +1,135 @@
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Book'), local('Gotham-Book');
+ font-weight: normal;
+ font-style: normal;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Bold'), local('Gotham-Bold');
+ font-weight: bold;
+ font-style: normal;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Book Italic'), local('Gotham-BookItalic');
+ font-weight: normal;
+ font-style: italic;
+ font-variant: normal;
+}
+@font-face {
+ font-family: 'Gothamy';
+ src: local('Gotham Bold Italic'), local('Gotham-BoldItalic');
+ font-weight: bold;
+ font-style: italic;
+ font-variant: normal;
+}
+.body {
+ font-family: Gothamy, Gotham-Book, Arial, sans-serif;
+
+}
+
+.image{
+    /* float: center; */
+    /* position: fixed; */
+    background-image: url('./img/Background.jpg');
+    color:  #DCDCDC;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+.bgcolour {
+    background: black;
+  }
+
+h5{
+   position: absolute; 
+   top: 50px; 
+   left: 0; 
+   width: 350px;
+   margin-left: 550px;
+
+}
+#dummybodyid{
+  overflow: hidden;
+}
+
+.bgcolour{
+
+    background-color: black;
+}
+
+.customLogo{
+      padding-top: 340px;
+    padding-bottom: 30px;
+ 
+ }
+.textFeilds input{
+    height: 30px;
+    width: 90%;
+    border-radius: 30px;
+    float: right;
+}
+}
+
+.textFeilds img{
+  width: 72%;
+    float: right;
+}
+
+.BUSINESS {
+
+  margin-top: 10px; 
+  height: 40px;
+}
+
+.PACKAGE{
+
+  /*margin-bottom: 100px; */
+
+
+}
+.STANDARD{
+  /*margin-bottom: 160px; */
+
+}
+.DELUXE{
+  /*margin-top: -115px; */
+}
+
+.STARTYOUR{
+  margin-top: 10px;
+    height: 60px;
+}
+.radioButoon {
+  margin: 4px 0;
+}
+
+.radioButoon input[type=radio] {
+  width: 43px;
+  margin:22px 0px 0px;
+  float: left;
+    height: 19px;
+}
+.radioButoon img {
+  float: left;
+  width: 87%;
+}
+
+.content{
+  margin-top: 100px;
+  margin-right: 60px;
+}
+p.logoBtn  {
+    background: #e02129;
+    width: 60%;
+    text-align: center;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 2px;
+}
